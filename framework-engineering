@@ -15,16 +15,16 @@ Building a framework requires distilling messy, multi-channel execution into cle
 ### 1.1 The 4 Structural Components of a Framework
 
 Every durable marketing framework consists of four core building blocks:
-┌───────────────────────────┐     ┌───────────────────────────┐
-│  1. Diagnostic Input      │ ──> │  2. Analytical Taxonomy   │
-│     (Signals & Metrics)   │     │     (Categorization Logic)│
-└───────────────────────────┘     └───────────────────────────┘
-│
-▼
-┌───────────────────────────┐     ┌───────────────────────────┐
-│  4. Scalable Output       │ <── │  3. Action Matrix / SOP   │
-│     (Briefs & Execution)  │     │     (If/Then Decision Rules)│
-└───────────────────────────┘     └───────────────────────────┘
+┌───────────────────────────┐     ┌────────────────────────────┐
+│  1. Diagnostic Input      │ ──> │  2. Analytical Taxonomy    │
+│     (Signals & Metrics)   │     │     (Categorization Logic) │
+└───────────────────────────┘     └────────────────────────────┘
+                                                             │
+                                                             ▼
+┌───────────────────────────┐     ┌────────────────────────────┐
+│  4. Scalable Output       │ <── │  3. Action Matrix / SOP    │
+│     (Briefs & Execution)  │     │     (If/Then Decisions)    │
+└───────────────────────────┘     └────────────────────────────┘
 
 1. **Diagnostic Input (The Raw Signals):** The data points used to assess the current state (e.g., CPA trends, landing page drop-off rates, ROAS variance, creative fatigue curves).
 2. **Analytical Taxonomy (Categorization Logic):** The bucket system used to group insights (e.g., categorizing hooks by *Problem-First*, *Social Proof*, or *Value-Stacking*).
