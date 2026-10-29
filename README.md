@@ -37,8 +37,8 @@ This repository houses the core operational framework I use to architect, test, 
 A framework cannot define taste, curiosity, or strategic judgment. It's a tool for inspiration and guidance, and it is only as helpful as the inputs and insights provided. Without deep, firsthand knowledge of your product, customer, and brand this framework will not produce the results you desire. 
 
 * **Data is a starting point, not an answer:** Spreadsheets and attribution tools tell you *what* happened; they never tell you *why* someone behaved the way they did. 
-* **Execution requires empathy:** If you cannot translate technical performance insights, your creative output will not convert as efficiently as it could. Become your customer, if you can. If you can't partner with a creator who is your customer, compensate your customers for authentic UGC, and iterate from there.
-* **Taste is meant to be tailored:** The decisions that will really shape your creative outputs all requires a distinct point of view.Does your brand's taste align with your consumer's? Is it flexibile enough to build creatives that are platform native?
+* **Empathy begets efficiency:** If you cannot translate technical performance insights, your creative output will not convert as efficiently as it could. Become your customer, if you can. If you can't partner with a creator who is your customer, compensate your customers for authentic UGC, and iterate from there.
+* **Taste is meant to be tailored:** The decisions that will really shape your creative outputs all require a distinct point of view. Does your brand's taste align with your consumer's? Is it flexibile enough to build creatives that are platform native?
 
 ---
 
