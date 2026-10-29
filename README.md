@@ -46,11 +46,11 @@ A framework cannot define taste, curiosity, or strategic judgment. It's a tool f
 
 The documents stored in this repository reflect a systematic approach to turning unstructured marketing data into a structured and repeatable process for producing high-quality assets:
 
-* `Voice_of_Customer_Audit_Process.md` — *Harvesting insights and outlining prospective hooks.*
-* `Persona_Copy_Testing_Methodology.md` — *Triangulating research to develop personas.*
-* `Copy_Voice_Guide_Brand_Neutral.md` — *My personal baseline. You will need to layer your own perspective. Good copy requires a human touch*
-* `Persona_to_Copy_Translation_Guide.md` — *Persona lens adaptation and copywriting guardrails.*
-* `Framework_Development_and_Creative_Angles.md` — *A guide for developing custom frameworks and engineering angles.*
+* `audit-persona-research` — *Harvesting insights and outlining prospective hooks.*
+* `constructing-persona-copy-framework` — *Triangulating research to develop personas.*
+* `copy-style-guide` — *My personal baseline. You will need to layer your own perspective. Good copy requires a human touch*
+* `persona-copy-lens` — *Persona lens adaptation and copywriting guardrails.*
+* `framework-engineering` — *A guide for developing custom frameworks and engineering angles.*
 
 ---
 *Built and maintained by **Ashleigh G.** — Consistently curious marketing specialist specializing in performance operations, growth frameworks, and AI-accelerated creative workflows. Currently expanding my capacity for systems-level thinking for performance marketing, creative testing, and audience intelligence.* 
