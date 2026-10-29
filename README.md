@@ -32,27 +32,25 @@ This repository houses the core operational framework I use to architect, test, 
 
 ## When Frameworks Fail
 
-> *"You must know your brand and your customers. You must be curious and have a perspective. Without that, this all falls apart."*
+> *You must know your brand and your customers. You must be curious and have a perspective. Without that, this all falls apart.*
 
-A framework is a skeleton; it cannot manufacture taste, curiosity, or strategic judgment. 
+A framework cannot define taste, curiosity, or strategic judgment. It's a tool for inspiration and guidance, and it is only as helpful as the inputs and insights provided. Without deep, firsthand knowledge of your product, customer, and brand this framework will not produce the results you desire. 
 
-If you attempt to drop these documents into an ad account or an AI agent without deep, firsthand knowledge of your product's unit economics, your customer's unprompted frustrations, and your brand's unique market position, the system will collapse under its own weight. 
-
-* **Data is a starting point, not an answer:** Spreadsheets and attribution tools tell you *what* happened; they never tell you *why* someone paused their scroll. 
-* **Execution requires empathy:** Creators cannot film abstract metrics. If you cannot translate a technical performance insight into a visceral, lived human experience, your creative output will remain sterile.
-* **Taste cannot be automated:** Guardrails and taxonomies keep execution rigorous, but deciding *which* hill to die on musically, visually, and narratively requires a distinct point of view.
+* **Data is a starting point, not an answer:** Spreadsheets and attribution tools tell you *what* happened; they never tell you *why* someone behaved the way they did. 
+* **Execution requires empathy:** If you cannot translate technical performance insights, your creative output will not convert as efficiently as it could. Become your customer, if you can. If you can't partner with a creator who is your customer, compensate your customers for authentic UGC, and iterate from there.
+* **Taste is meant to be tailored:** The decisions that will really shape your creative outputs all requires a distinct point of view.Does your brand's taste align with your consumer's? Is it flexibile enough to build creatives that are platform native?
 
 ---
 
 ## 📂 Repository Architecture & Contents
 
-The documents stored in this repository reflect a systematic approach to turning unstructured marketing data into structured, repeatable operational assets:
+The documents stored in this repository reflect a systematic approach to turning unstructured marketing data into a structured and repeatable process for producing high-quality assets:
 
-* `Voice_of_Customer_Audit_Process.md` — *Systematic harvesting and hook taxonomy parsing.*
-* `Persona_Copy_Testing_Methodology.md` — *Signal triangulation and structured persona architecture.*
-* `Copy_Voice_Guide_Brand_Neutral.md` — *Baseline constraints, tone dials, and anti-cliché filters.*
-* `Persona_to_Copy_Translation_Guide.md` — *Audience lens adaptation and authenticity guardrails.*
-* `Framework_Development_and_Creative_Angles.md` — *Creative angle engineering and the Human Translation Layer.*
+* `Voice_of_Customer_Audit_Process.md` — *Harvesting insights and outlining prospective hooks.*
+* `Persona_Copy_Testing_Methodology.md` — *Triangulating research to develop personas.*
+* `Copy_Voice_Guide_Brand_Neutral.md` — *My personal baseline. You will need to layer your own perspective. Good copy requires a human touch*
+* `Persona_to_Copy_Translation_Guide.md` — *Persona lens adaptation and copywriting guardrails.*
+* `Framework_Development_and_Creative_Angles.md` — *A guide for developing custom frameworks and engineering angles.*
 
 ---
-*Maintained by **Ashleigh G.** — Consistently curious marketing specialist specializing in performance operations, growth frameworks, and AI-accelerated creative workflows. Currently expanding my capacity for systems-level thinking for performance marketing, creative testing, and audience intelligence.* 
+*Built and maintained by **Ashleigh G.** — Consistently curious marketing specialist specializing in performance operations, growth frameworks, and AI-accelerated creative workflows. Currently expanding my capacity for systems-level thinking for performance marketing, creative testing, and audience intelligence.* 
