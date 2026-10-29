@@ -1,0 +1,99 @@
+# 🎙️ Voice of Customer (VoC) Audit & Transcript Analysis SOP
+
+## Executive Overview & Purpose
+
+Raw customer feedback (ad comments, review platforms, transcript analysis, and social discussions) contains essential growth signals. However, raw feedback is often noisy, fragmented, and unorganized. 
+
+This SOP outlines a repeatable, 5-step process to harvest, clean, tag, and synthesize high-volume VoC data. The resulting insights feed directly into the **Persona Matrix (`Doc 1`)** and **Persona Translation Engine (`Doc 3`)**.
+
+---
+
+## 🛠️ System Overview & Required Tooling
+┌───────────────────────────┐     ┌───────────────────────────┐     ┌───────────────────────────┐
+│ 1. Data Ingestion & Query │ ──> │ 2. Transcript & Text Parsing│ ──> │ 3. Taxonomical Tagging    │
+│    (Ad Platforms / Spend) │     │    (Hook & Body Splitting) │     │    (Themes & Angles)      │
+└───────────────────────────┘     └───────────────────────────┘     └───────────────────────────┘
+│
+▼
+┌───────────────────────────┐     ┌───────────────────────────┐     ┌───────────────────────────┐
+│ 5. Persona Strategy Feed  │ <── │ 4. Comparative Analysis   │ <── │ 3. Quantitative Indexing  │
+│    (Feeds into Doc 1)     │     │    (A/B Performance Pairs)│     │    (CTR / CPA / Spend)    │
+└───────────────────────────┘     └───────────────────────────┘     └───────────────────────────┘
+
+| Component | Function | Inputs / Connectors |
+| :--- | :--- | :--- |
+| **Data Source Connector** | Pulls top-performing video ad assets, spend data, and comments | Ad Platforms (e.g., YouTube, Meta, TikTok) |
+| **Transcription Agent** | Extracts verbatim spoken text and timestamped hooks | Automated Speech-to-Text / Transcriber API |
+| **Structured Repository** | Central database storing transcripts, metadata, and performance metrics | Drive / Sheets / Database Index |
+| **Analysis Engine** | Categorizes hooks, isolates variables, and identifies VoC triggers | Large Language Model (LLM) / Analytical Script |
+
+---
+
+## 📋 Step-by-Step Execution Workflow
+
+### Step 1: Query & Filter Top-Performing Assets
+
+Extract ad creative or customer feedback sources based on business volume or ad spend thresholds.
+
+1. Query ad platforms for video assets with spend within a specified date range, ranked by spend/conversion volume.
+2. Filter for significant spend thresholds to ensure data reliability.
+3. Establish unique ID keys (e.g., `AD-01`, `AD-02`) to link creative assets directly to performance data tables.
+
+---
+
+### Step 2: Automated Transcript Parsing & Hook Extraction
+
+The first 3–5 seconds of ad copy or spoken feedback determine retention and engagement. Isolate the opening line for granular comparison.
+
+1. **The Hook Extraction Rule:** Extract the **entire first spoken sentence** as the primary hook, even if it extends slightly past 5 seconds.
+2. **First 5-Second Highlight:** Highlight or bold text heard before the 0:05 mark to isolate immediate retention drivers from the broader opening thought.
+3. **Structure Document Output:**
+   * **Asset Metadata:** ID, title, channel, length, spend, impressions, CTR, CPA.
+   * **Hook (0–5s / First Sentence):** Timestamped opening sentence.
+   * **Rest of Content:** Body copy or remaining video transcript.
+   * **Transcription Notes:** On-screen text, visual overlays, or caption source notes.
+
+---
+
+### Step 3: Taxonomical Tagging & Categorization
+
+Categorize creative assets and customer comments by underlying messaging structures rather than vague account titles.
+
+#### Standard Hook Taxonomy Categories:
+* **Cold Open / Mid-Demo:** Immediate product usage with zero intro.
+* **Rapid-Fire Reaction:** High-energy visual or spoken reaction to a problem/solution.
+* **Question + Bold Claim:** Asking a specific question followed immediately by a value proposition.
+* **Curiosity / Novelty:** Highlighting an unexpected or counter-intuitive product attribute.
+* **Surprise Reveal:** Showing a problem state followed by an abrupt solution reveal.
+* **Direct Comparison:** Side-by-side or relational positioning against alternatives.
+* **Personal Testimonial / Story:** First-person narrative outlining a specific pain point.
+
+---
+
+### Step 4: Comparative Variable Isolation (A/B Pair Analysis)
+
+Evaluate near-identical ad assets or customer feedback themes to isolate why one creative approach or message out-performed another.
+
+1. **Identify Starting Pairs:** Find ads sharing identical body copy or offers but featuring different opening hooks (e.g., `AD-04` vs. `AD-12`).
+2. **Isolate the Variable:** Compare performance metrics (CTR, CPC, CPA, Conversion Rate) across the pair.
+3. **Extract the Principle:** Document why Hook A outperformed Hook B (e.g., *"Framing the benefit as a curiosity question drove a 34% lower CPA than starting with a direct product intro"*).
+
+---
+
+### Step 5: Synthesize VoC into a rudimentary Persona Matrix
+
+Raw feedback must be synthesized before it can inform campaign strategy. Translate observed comments and winning hooks into structured persona inputs:
+
+| Raw VoC Signal / Observation | Synthesized Insight | Persona Matrix Mapping (`Doc 1`) |
+| :--- | :--- | :--- |
+| *"I had no idea this product could replace [Alternative]."* | Unaware of multi-use capability; category comparison need. | **Expansion Persona:** The Efficiency Seeker |
+| *"I was worried about [Objection] until I saw [Demo]."* | Primary buying barrier identified (trust/friction). | **Buying Barrier:** Pre-Purchase Friction |
+| High CTR on *Curiosity / Novelty* opening hooks. | Audience responds to counter-intuitive claims over direct sales pitches. | **Primary Hook Strategy:** Counter-Intuitive Angle |
+
+---
+
+## 📑 Pre-Launch VoC Verification Checklist
+
+- [ ] **Data Cleaning:** Have all product names, brand specifics, and proprietary details been standardized or generalized?
+- [ ] **Taxonomy Consistency:** Does the hook label match an established taxonomy category before a new label is created?
+- [ ] **Data Verification:** Are CTR, CPA, and conversion metrics calculated using standardized platform definitions?
